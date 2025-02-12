@@ -19,6 +19,10 @@ export default withZephyr()({
   module: {
     rules: [
       {
+        test: /\.riv$/,
+        type: "asset"
+      },
+      {
         test: /\.svg$/,
         type: "asset"
       },
